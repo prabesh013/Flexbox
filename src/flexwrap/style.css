@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 700px;
+  width: 700px;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap-reverse; */
+}
+.box {
+  height: 200px;
+  width: 200px;
+  color: white;
+  font-size: 2rem;
+}
+
+#box1 {
+  background-color: dodgerblue;
+}
+#box2 {
+  background-color: olive;
+}
+#box3 {
+  background-color: tomato;
+}
+#box4 {
+  background-color: black;
+}
+#box5 {
+  background-color: blueviolet;
+}

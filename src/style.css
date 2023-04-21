@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: cyan;
+  border: 5px solid black;
+  height: 40vh;
+  width: 40vh;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+#div1 {
+  background-color: green;
+}
+#div2 {
+  background-color: gold;
+}
+#div3 {
+  background-color: dodgerblue;
+}
+#div4 {
+  background-color: tomato;
+}
+#div5 {
+  background-color: thistle;
+}
